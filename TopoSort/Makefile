@@ -32,7 +32,7 @@ SRC		= list.c graph.c graphio.c toposort.c main.c
 OBJ     = $(SRC:.c=.o)
 
 # The executable name
-TARGET	= ass1
+TARGET	= toposort
 
 .PHONY: all
 all: $(TARGET) daggen
